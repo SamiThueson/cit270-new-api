@@ -1,11 +1,11 @@
 {
-  "name": "cit270-helloworld",
-  "version": "1.0.0",
-  "description": "",
-  "main": "helloworld.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "express": "^4.17.2",
+    "jest": "^27.4.7",
+    "mocha": "^9.1.4"
   },
-  "author": "",
-  "license": "ISC"
+  "scripts": {
+    "test": "mocha"
+  },
+  "type": "module"
 }
